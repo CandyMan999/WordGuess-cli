@@ -1,0 +1,27 @@
+array of words
+
+set number of guesses
+
+choose a random word
+
+create a word object, split the word and create the letters
+
+replace each letter in the word with an unerscore
+
+show the inquirer  prompt plus remaining guesses
+
+recursion... keep showing until they run out of guesses 
+or all letters are showing
+
+if the guess is in the word display the updated word
+    with every corresonding letter to the guess revealed
+
+else numGuesses -- display number of guesses left
+
+if all indeces are letters go to next word 
+
+if numGuesses reaches zero lthen run the game again
+with propmt to play again,
+
+play game over yes or no after each word is matched or numGuesses
+reaches zero
