@@ -9,10 +9,11 @@ function Word(word){
     this.showWord = function(){ 
        
        
-       return this.letters.map(function(letter){
+       let display = this.letters.map(function(letter){
             return letter.showLetter();
 
         }).join(" ");
+        console.log(display);
       
         
     }
@@ -24,6 +25,9 @@ function Word(word){
             }
         });
        return hasMatch;
+    }
+    this.isVis = function(){   
+       return this.letters.every(letter=>letter.isVis);
     }
   
 }
